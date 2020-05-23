@@ -1,4 +1,4 @@
-const request = require("request");
+/*const request = require("request");
 
 const options = {
   url: "https://restcountries.eu/rest/v2/all",
@@ -13,7 +13,26 @@ const options = {
 request(options, function (err, res, body) {
   let json = JSON.parse(body);
   console.log(json);
-});
+});*/
+
+////////////
+const axios = require("axios");
+
+const getCountry = async () => {
+  try {
+    return await axios.get("https://restcountries.eu/rest/v2/all");
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const paises = async () => {
+  const pais = await getCountry();
+
+  console.log(pais);
+};
+
+paises();
 
 /*
 const fs = require("fs");
