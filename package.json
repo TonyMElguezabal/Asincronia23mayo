@@ -1,0 +1,23 @@
+{
+  "name": "mayo23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyMElguezabal/Asincronia23mayo.git"
+  },
+  "author": "TonyMElguezabal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyMElguezabal/Asincronia23mayo/issues"
+  },
+  "homepage": "https://github.com/TonyMElguezabal/Asincronia23mayo#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "request": "^2.88.2"
+  }
+}
